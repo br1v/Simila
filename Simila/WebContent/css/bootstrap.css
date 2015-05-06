@@ -288,12 +288,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #E8C99F;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #CC8F5A;
   text-decoration: underline;
 }
 a:focus {
@@ -4029,7 +4029,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #fff;
+  color: #CC8F5A;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
@@ -4040,13 +4040,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
+  color: #CC8F5A;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #fff;
+  color: #CC8F5A;
   background-color: #492100;
 }
 .navbar-inverse .navbar-nav > .disabled > a,

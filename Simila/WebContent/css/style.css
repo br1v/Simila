@@ -55,7 +55,7 @@ textarea {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #E8C99F;
     margin: 1em 0;
     padding: 0;
 }
@@ -285,6 +285,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Kunstler";
 	text-shadow: 5px 5px 5px #000;
 }
+#forno {
+	color:#2F1906;
+	letter-spacing: 3px;
+	font-size: 30px;
+	font-weight: bold;
+    font-family: "Georgia";
+	text-shadow: 1px 1px 1px #000;
+}
 
 /* About Wrap & Conf */
 #aboutwrap {
@@ -374,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio {
-	background-image: url(../img/portfolio-sep.jpg);
+	background-image: url(../img/download/tantopane.jpg);
 }
 
 /* Service Wrap */
@@ -420,14 +428,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Contact Wrap */
 #contactwrap {
-	background-color: #2f2f2f;
+	background-color: #2F1906;
 	margin-top: 0px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 
 #contactwrap p {
-	color: #f2f2f2;
+	color: #E8C99F;
 }
 
 #contactwrap small {
@@ -435,12 +443,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-	background-image: url(../img/contact-sep.jpg);
+	background-image: url(../img/download/o-bread.jpg);
 }
 
 #contactwrap label {
 	color: #f2f2f2;
 	margin-top: 10px;
+}
+
+#map-canvas {
+	  height: 350px;
+  margin-left: 20px;
 }
 
 
@@ -495,4 +508,5 @@ h1, h2, h3, h4, h5, h6 {
 .desc {
 	margin-top: 25px;
 }
+
 

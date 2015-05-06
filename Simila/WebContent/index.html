@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="ico/favicon.ico">
 
-    <title>NYC - Design Studio</title>
+    <title>Pane & Cioccolato</title>
 
     <!-- Bootstrap core CSS-->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -323,34 +323,27 @@
 	<div id="contactwrap">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
-					<p>CONTACT ME RIGHT NOW!</p>
+				<div class="col-lg-4" id="colidd">
+					<p>VIENI A TROVARCI!</p>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					<hr>
 					<p>
-						<small>5th Avenue, 987<br/>
-						38399, New York,<br/>
-						USA.</small>
+						<small>Via Pietro Maffi, 105<br/>
+						(angolo Via Pietro Adami)<br/>
+						00168, Roma</small>
 					</p>
+					<hr>
 					<p>
-						<small>Tel. 9888-4394<br/>
-						Mail. Hello@coolfolks.com<br/>
-						Skype. NYCDesign</small>
+						<small><i class="fa fa-phone"></i> <span style="margin-left:7px">06 30 17 715</span><br/>
+						<i class="fa fa-envelope-o"></i></i><span style="margin-left:5px"> similasrl@gmail.com</span><br/>
+						<i class="fa fa-facebook"></i><span style="margin-left:15px"><a href="https://www.facebook.com/FornoPaneECioccolato">FornoPaneECioccolato</a></span></small>
 					</p>
 			
 				</div>
 				
-				<div class="col-lg-6">
-					<form role="form">
-					  <div class="form-group">
-					    <label for="exampleInputName1">Your Name</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
-					    <label for="exampleInputEmail1">Email address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-					    <label for="exampleInputText1">Message</label>
-					    <textarea class="form-control" rows="3"></textarea>
-					  </div>
-					  <button type="submit" class="btn btn-default">Submit</button>
-					</form>
+				<div class="col-lg-8">
+					<div id="map-canvas">
+					</div>
 				</div>
 			
 			</div> <!-- /row -->
@@ -367,21 +360,12 @@
 	<script src="js/jquery.stellar.min.js"></script>
 	<script src="js/fancybox/jquery.fancybox.js"></script>    
 	<script src="js/main.js"></script>
-		<script>
-		$(function(){
-			$.stellar({
-				horizontalScrolling: false,
-				verticalOffset: 40
-			});
-		});
-		</script>
-		
-		<script type="text/javascript">
-      $(function() {
-        //    fancybox
-          jQuery(".fancybox").fancybox();
-      });
-	   </script>
+	<script src="js/map.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	
+	
+
+	   
 
   </body>
 </html>

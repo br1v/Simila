@@ -78,7 +78,7 @@ body {
     font-family: "Lato" sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #000;
+    color: #2F1906;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -294,8 +294,8 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: 1px 1px 1px #000;
 }
 
-/* About Wrap & Conf */
-#aboutwrap {
+/* filosofia Wrap & Conf */
+#filosofiawrap {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
@@ -332,9 +332,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 40px;
 	line-height: 1.45;
 	font-weight: 300;
+	color: #2F1906;
 }
 
-/* Separator About - Parallax Section */
+/* Separator filosofia - Parallax Section */
 .sep {
 	background-attachment: fixed;
 	background-position: 50% 0;
@@ -342,8 +343,8 @@ h1, h2, h3, h4, h5, h6 {
 	height: 450px;
 	position: relative;
 }
-.about {
-	background-image: url(../img/photos/IMG_2696R.JPG);
+.filosofia {
+	background-image: url(../img/download/bakery_lower.jpg);
 }
 
 /* Portfolio Wrap Section */
@@ -509,4 +510,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 25px;
 }
 
-
+.iconcina
+{
+	width:30px;
+	height:30px;
+	vertical-align:middle;
+}

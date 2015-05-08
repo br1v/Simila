@@ -36,14 +36,14 @@ textarea {
  */
 
 ::-moz-selection {
-    background: #f2c2c9;
-    color: #a4003a;
+    background: #593415;
+    color: #E1C29A;
     text-shadow: none;
 }
 
 ::selection {
-    background: #16a085;
-    color: #a4003a;
+    background: #593415;
+    color: #E1C29A;
     text-shadow: none;
 }
 
@@ -294,8 +294,8 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: 1px 1px 1px #000;
 }
 
-/* filosofia Wrap & Conf */
-#filosofiawrap {
+/* forno Wrap & Conf */
+#fornowrap {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #2F1906;
 }
 
-/* Separator filosofia - Parallax Section */
+/* Separator forno - Parallax Section */
 .sep {
 	background-attachment: fixed;
 	background-position: 50% 0;
@@ -343,18 +343,18 @@ h1, h2, h3, h4, h5, h6 {
 	height: 450px;
 	position: relative;
 }
-.filosofia {
+.forno {
 	background-image: url(../img/download/bakery_lower.jpg);
 }
 
-/* Portfolio Wrap Section */
-#portfoliowrap {
+/* prodotti Wrap Section */
+#prodottiwrap {
 	display: block;
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
-#portfoliowrap h1 {
+#prodottiwrap h1 {
 	font-weight: 300;
 	text-align: center;
 	margin-bottom: 50px;
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 60px;
 }
 
-#portfoliowrap i {
+#prodottiwrap i {
 	font-size: 50px;
 }
 
@@ -377,45 +377,45 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: solid 2px transparent;
 }
 
-#portfoliowrap .proc:hover {
+#prodottiwrap .proc:hover {
 	background-color: #eee;
 	border-bottom: solid 2px #2f2f2f
 }
 
-.portfolio {
+.prodotti {
 	background-image: url(../img/download/tantopane.jpg);
 }
 
-/* Service Wrap */
-#servicewrap {
+/* catering Wrap */
+#cateringwrap {
 	display: block;
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
-#servicewrap h1 {
+#cateringwrap h1 {
 	font-weight: 300;
 	text-align: center;
 	margin-bottom: 20px;
 }
 
-.service {
+.catering {
 	text-align: left;
 }
 
-.service small {
+.catering small {
 	font-size: 12px;
 	font-weight: bold
 }
 
-.service i {
+.catering i {
 	float: left;
 	margin-right: 15px;
 	font-size: 30px;
 	vertical-align: middle;
 }
 
-.service .text {
+.catering .text {
 	color: #767676
 }
 
@@ -512,7 +512,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .iconcina
 {
-	width:30px;
-	height:30px;
-	vertical-align:middle;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
 }

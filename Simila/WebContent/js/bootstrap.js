@@ -1869,7 +1869,7 @@ if (typeof jQuery === 'undefined') {
   ScrollSpy.prototype.refresh = function () {
     var that          = this
     var offsetMethod  = 'offset'
-    var offsetBase    = 0
+    var offsetBase    = 
 
     this.offsets      = []
     this.targets      = []

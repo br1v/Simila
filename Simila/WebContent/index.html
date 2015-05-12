@@ -38,7 +38,14 @@
             <ul class="nav navbar-nav navbar-right">
               <li id="mhome"><a href="#home" class="smoothScroll">Home</a></li>
               <li id="mforno"><a href="#forno" class="smoothScroll">Forno</a></li>
-              <li id="mprodotti"><a href="#prodotti" class="smoothScroll">Prodotti</a></li>
+                  <li class="dropdown"><a href="#prodotti" class="smoothScroll" >Prodotti</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#pizza" class="smoothScroll">Pizza</a></li>
+                                <li><a href="#pane" class="smoothScroll">Pane</a></li>
+                                <li><a href="#dolci" class="smoothScroll">Dolci</a></li>
+                            </ul>
+                        </li>
+             <!--   <li id="mprodotti"><a href="#prodotti" class="smoothScroll">Prodotti</a></li>-->
               <li id="mcatering"><a href="#catering" class="smoothScroll">Catering</a></li>
               <li id="mcontact"><a href="#contact" class="smoothScroll">Contatti</a></li>
             </ul>
@@ -113,9 +120,9 @@
 	<section id="prodotti" name="prodotti"></section>
 	<div id="prodottiwrap">
 		<div class="container"> 
-		
-			<div class="row"> <!-- ROW1 Pizza -->
-				<h1>I NOSTRI PRODOTTI</h1>
+		<section id="pizza" name="pizza" ></section>
+		<h1>I NOSTRI PRODOTTI</h1>
+			<div class="row"> <!-- ROW1 Pizza --> 
 				<h2>La Pizza</h2>
 				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 desc">
 					<div class="project-wrapper">
@@ -196,9 +203,9 @@
 				</div><!-- col-lg-2-->
 			</div><!-- /ROW1 Pizza -->
 
-			
+			<section id="pane" name="pane"></section>
 			<div class="row mt"> <!-- ROW2 Pane -->
-			<h2>Il Pane</h2>
+			<h2>Il Pane</h2> 
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 desc">
 					<div class="project-wrapper">
 	                    <div class="project">
@@ -250,7 +257,7 @@
 	                </div>
 				</div><!-- col-lg-3-->
 			</div><!-- /ROW2 Pane -->
-			
+			<section id="dolci" name="dolci"></section>
 		<div class="row mt"> <!-- ROW3 Dolci -->
 			<h2>I Dolci</h2>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">

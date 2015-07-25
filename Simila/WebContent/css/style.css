@@ -532,3 +532,9 @@ height: 62.4375px;
     width:100%; */
 }
 
+.citazioni {
+	font-style: italic;
+	font-size: 20px;
+	/*font-weight: bold;*/)
+}
+

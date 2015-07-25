@@ -3756,6 +3756,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
+ /*   height: 100%; /*mio*/
+	/*width: 100%; /*mio*/
   }
 }
 .navbar-toggle {

@@ -8,8 +8,14 @@
 		$('#theMenu').toggleClass('menu-open');
 	});
 
-})(jQuery)*/
+})(jQuery)
 
+$( document ).ready(function() {
+$(window).load(function() {
+$(".loader").fadeOut("slow");
+});
+});
+*/
 $(function() {
 	$.stellar({
 		horizontalScrolling : false,
